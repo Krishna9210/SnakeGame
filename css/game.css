@@ -100,3 +100,11 @@ li{
     margin: 20px;
     
 }
+#highScoresList{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 2rem;
+    font-size: 60px;
+    color: green;
+
+}

@@ -3,7 +3,25 @@
     padding: 0;
     margin: 0;
 }
+#home-btn{
+    font-size: 29px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    right: 80%;
+    top: 4%;
+}
+a:link { text-decoration: none; }
 
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
 .body{
     background: url("../img/bg.jpg"); 
     min-height: 100vh;

@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="favicon.ico?v=2" />
-    <title>Snake Mania</title>
-    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/game.css" />
+    <title>High Scores</title>
   </head>
   <body>
-    <div class="body">
-      <div id="home-btn"><a href="./main.html">Home</a></div>
-      <div id="scoreBox">Score: 0</div>
-      <div id="hiscoreBox">HiScore: 0</div>
-      <div id="board"></div>
+    <div class="container">
+      <div id="highScores" class="flex-center flex-column">
+        <h1 id="finalScore">High Scores</h1>
+        <ul id="highScoresList"></ul>
+        <a class="btn" href="main.html">Go Home</a>
+      </div>
     </div>
+
+    <script src="./js/highScores.js"></script>
   </body>
-  <script src="./js/index.js"></script>
 </html>
